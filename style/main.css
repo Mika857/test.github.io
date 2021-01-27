@@ -90,13 +90,13 @@ ul li a:hover:after{
     height: 2px;
     background: #2d3436;
     transform: scaleX(0);
-    transform-origin:center;
+    transform-origin:left;
     transition: transform .3s ease;
 }
 
 .header-nav-li a:hover:after{
     transform:scaleX(1.2);
-    transform-origin:center;
+    transform-origin:left;
     transition:transform .5s;
 }
 
