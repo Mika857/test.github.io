@@ -12,23 +12,27 @@ body{
     text-align: center;
 }
 
-
+header{
+    font-size: 40px;
+}
 
 .survey{
     margin: 0 auto;
     margin-top: 10%;
     background: #189AB4;
-    width:60%;
+    width:40%;
     border-radius: 10px 10px;
-    height: 250px;
+    height: 50%;
     color: white;
     padding: 7px 7px;
     box-shadow: 1px 1px 20px black;
 }
+
 .survey h3{
     padding: 20px;
     color: black;
     background-color: #189AB4;
+    font-size:xx-large;
 }
 
 .survey li{
@@ -38,8 +42,9 @@ body{
     margin: 5px auto;
     background: #189AB4;
     color: #D4F1F4;
-    font-size: 18px;
-    width: 200px;
+    font-size: 22px;
+    width: 40%;
+    height: 10%;
     padding: 15px;
     font-weight: bolder;
 }
