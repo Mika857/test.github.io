@@ -62,5 +62,10 @@ header{
     display: block;
 }
 
+#end{
+   display: none; 
+}
+
+
 
 

@@ -1,5 +1,10 @@
 //const option = document.querySelector(".option")
 const opt1 = document.getElementById("opt1")
+const opt2 = document.getElementById("opt2")
+const opt3 = document.getElementById("opt3")
+
+const question = document.getElementById("question")
+const end = document.getElementById("end")
 
 console.log(localStorage)
 
@@ -14,6 +19,8 @@ function opt1_Click(e){
         number += 1
         localStorage.setItem(0, number)
     }
+    question.style.display = "none";
+    end.style.display = "block";
 }
 
 function opt2_Click(e){
@@ -28,6 +35,8 @@ function opt2_Click(e){
         number += 1
         localStorage.setItem(numberStorage, number)
     }
+    question.style.display = "none";
+    end.style.display = "block";
 }
 
 function opt3_Click(e){
@@ -39,9 +48,11 @@ function opt3_Click(e){
     }
     else{
         var number = parseInt(localStorage.getItem(numberStorage))
-        number += numberStorage
+        number += 1
         localStorage.setItem(numberStorage, number)
     }
+    question.style.display = "none";
+    end.style.display = "block";
 }
 
 
