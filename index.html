@@ -1,43 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script>
-        $.get("https://ipinfo.io",function(response){
-            console.log(response.ip)
-        }, "json")
-    </script>
-    <title>Umfrage</title>
+    <title>Test | Animation Css</title>
+    <link href="./style/main.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <h1>Filmeabend</h1>
-    </header>
+        <div class="header-main">
+            Jonas Kaiser
+        </div>
 
-    <div class="survey">
-        <div id ="question">
-            <h3>Welchen Film willst du anschauen?</h3>
-            <ul class="option">
-                <li id="opt1">
-                    Herr der Ringe
-                </li>
-                <li id="opt2">
-                    Fluch der Karibik
-                </li>
-                <li id="opt3">
-                    Herr der Ringe
-                </li>
-            </ul>
-        </div>
-        <div id="end">
-            <h3>Vielen Dank für deine Antwort</h3>
-        </div>
-    </div>
-    <script src="app.js"></script>
+        <ul class="header-nav-ul">
+            <li class="header-nav-li">
+                <a href="umfrage.html">Umfrage</a>
+            </li>
+            <li class="header-nav-li">
+                <a href="#">Test</a>
+            </li>
+            <li class="header-nav-li">
+                <a href="#">Test</a>
+            </li>
+        </ul>
+    </header>
 </body>
 </html>
