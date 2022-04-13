@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <filename>../Raeume/1. Stock/bib/bib_equi_equi.jpg</filename>
+      <type>auto</type>
+      <hfov>360</hfov>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>106.5</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>-3</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>70</start>
+        <minunit>degrees</minunit>
+        <min>5</min>
+        <max>120</max>
+      </fov>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>147.789</pan>
+          <tilt>-0.307603</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_Bibliothek_To_Gang_1_25</id>
+        <title>Gehe weiter</title>
+        <skinid>Gang_Bibliothek_To_Gang_1_25</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-51.5516</pan>
+          <tilt>0.600927</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_In_1_08</id>
+        <skinid>Room_In_1_08</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-92.2116</pan>
+          <tilt>0.418722</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Bibliothek_To_Gang_1_15</id>
+        <title>Gehe weiter</title>
+        <skinid>Bibliothek_To_Gang_1_15</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>102.544</pan>
+          <tilt>0.903328</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Sekretariat_In</id>
+        <title>Sekretariat</title>
+        <skinid>Sekretariat_In</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>80.5773</pan>
+          <tilt>2.12331</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Lehrerzimmer_In</id>
+        <title>Lehrerzimmer</title>
+        <skinid>Lehrerzimmer_In</skinid>
+      </hotspot>
+    </hotspots>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>Bibliothek.html</filename>
+          <template>normal.ggt</template>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="fullscreen">true</value>
+            <value id="gyro">false</value>
+            <value id="gyrodisable">false</value>
+            <value id="gyronorth">false</value>
+            <value id="jsxml">false</value>
+            <value id="manifest">false</value>
+            <value id="maps">false</value>
+            <value id="parseanchor">false</value>
+            <value id="showuserdata">false</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+            <value id="tablebgcolor">#dddddd</value>
+            <value id="tablebordercolor">#777777</value>
+            <value id="tabletextcolor">#000000</value>
+            <value id="textcolor">#000000</value>
+            <value id="touchicon"></value>
+          </values>
+        </html>
+        <facequality/>
+        <autorotate>
+          <enabled>0</enabled>
+          <speed>0.4</speed>
+          <delay>5</delay>
+          <returntohorizon>0</returntohorizon>
+          <afterloaded>0</afterloaded>
+        </autorotate>
+        <hotspottext>
+          <enabled>1</enabled>
+          <width>180</width>
+          <height>20</height>
+          <auto>0</auto>
+          <textcolor>#000000</textcolor>
+          <textwrap>1</textwrap>
+          <background>1</background>
+          <backgroundcolor>#ffffff</backgroundcolor>
+          <border>1</border>
+          <bordercolor>#000000</bordercolor>
+          <borderradius>1</borderradius>
+        </hotspottext>
+        <hotspotstyle>
+          <viewmode>hidden</viewmode>
+          <backgroundcolor>#0000ff,64</backgroundcolor>
+          <bordercolor>#0000ff</bordercolor>
+        </hotspotstyle>
+        <filename>Bibliothek_out.xml</filename>
+        <tilesize>1542</tilesize>
+        <quality>100</quality>
+        <progressivejpeg>0</progressivejpeg>
+        <cubefilename>images/$n_o.jpg</cubefilename>
+        <cubefacenaming>_5</cubefacenaming>
+        <windowwidth>1920</windowwidth>
+        <windowheight>1080</windowheight>
+        <fovmode>nax</fovmode>
+        <sensitivity>8</sensitivity>
+        <masssimulation>1</masssimulation>
+        <locked>0</locked>
+        <invertcontrol>1</invertcontrol>
+        <dblclickfullscreen>0</dblclickfullscreen>
+        <lockedwheel>0</lockedwheel>
+        <invertwheel>0</invertwheel>
+        <speedwheel>1</speedwheel>
+        <keyboardlocked>0</keyboardlocked>
+        <skinfile>/run/media/mika/Volume/Rundgang/Skins/Rundgang.ggsk</skinfile>
+        <skinSvgToPng>0</skinSvgToPng>
+        <skinimagepath>images</skinimagepath>
+        <preview>grayscale</preview>
+        <previewresolution>4</previewresolution>
+        <previewcolor>#808080</previewcolor>
+        <leveltileenabled>0</leveltileenabled>
+        <leveltilesize>512</leveltilesize>
+        <leveltilefilename>tiles/$n/c%c_l%r_%y_%x.jpg</leveltilefilename>
+        <leveltilegeneratefiles>1</leveltilegeneratefiles>
+        <leveltileoverlap>1</leveltileoverlap>
+        <levelswitchbias>0.4</levelswitchbias>
+        <previewquality>25</previewquality>
+      </htmlcss>
+    </output>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <view fovmode="3" pannorth="0">
+    <start pan="180" fov="102.448" tilt="2.5"/>
+    <min pan="0" fov="5" tilt="-90"/>
+    <max pan="360" fov="120" tilt="90"/>
+  </view>
+  <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0,2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="" target="" pan="121.035" skinid="Gang_Aula_To_Gang_0_24" url="" id="Gang_Aula_To_Gang_0_24" tilt="-1.03582"/>
+    <hotspot title="Turnhalle" target="" pan="-151.517" skinid="Gang_Aula_To_Gang_Turnhalle" url="" id="Gang_Aula_To_Gang_Turnhalle" tilt="-1.00167"/>
+    <hotspot title="OGS" target="" pan="-137.528" skinid="Room_In_OGS" url="" id="Room_In_OGS" tilt="-0.247329"/>
+    <hotspot title="Mensa" target="" pan="178.383" skinid="Aula_To_Mensa" url="" id="Aula_To_Mensa" tilt="-0.487327"/>
+    <hotspot title="SMV" target="" pan="138.316" skinid="Room_In_SMV" url="" id="Room_In_SMV" tilt="0.0508763"/>
+    <hotspot title="Haupteingang" target="" pan="61.1465" skinid="Aula_To_D_Haupteingang" url="" id="Aula_To_D_Haupteingang" tilt="-0.935757"/>
+    <hotspot title="Betrete Eg 13" target="" pan="-45.3847" skinid="Room_In_0_13" url="" id="Room_In_0_13" tilt="2.678"/>
+    <hotspot title="Bühne" target="" pan="1.96644" skinid="Aula_To_Buehne" url="" id="Aula_To_Buehne" tilt="1.94063"/>
+    <hotspot title="Betrete die Empore" target="" pan="134.091" skinid="Aula_To_Bib" url="" id="Aula_To_Bib" tilt="29.8691"/>
+    <hotspot title="Ha, ein Easteregg!" target="" pan="-37.4516" skinid="EggieScheinwerfer" url="" id="EggieScheinwerfer" tilt="21.1342"/>
+    <hotspot title="Pausenverkauf" target="" pan="-127.034" skinid="Aula_To_Pausenverkauf" url="" id="Aula_To_Pausenverkauf" tilt="-0.271952"/>
+  </hotspots>
+  <media/>
+  <input tile0url="images/aula mit eggie_o_0.jpg" prev5url="images/aula mit eggie_o_preview_5.jpg" prev4url="images/aula mit eggie_o_preview_4.jpg" prev3url="images/aula mit eggie_o_preview_3.jpg" prev2url="images/aula mit eggie_o_preview_2.jpg" prev1url="images/aula mit eggie_o_preview_1.jpg" prev0url="images/aula mit eggie_o_preview_0.jpg" tile5url="images/aula mit eggie_o_5.jpg" tilesize="1542" tile4url="images/aula mit eggie_o_4.jpg" tile3url="images/aula mit eggie_o_3.jpg" tilescale="1.006485" tile2url="images/aula mit eggie_o_2.jpg" tile1url="images/aula mit eggie_o_1.jpg">
+    <preview color="0x808080"/>
+  </input>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>

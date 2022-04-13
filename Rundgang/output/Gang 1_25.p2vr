@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <filename>../Raeume/1. Stock/Gang 1_25/Gang 1_25.jpeg</filename>
+      <type>auto</type>
+      <hfov>360</hfov>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>152</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>0</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>109</start>
+        <minunit>degrees</minunit>
+        <min>5</min>
+        <max>120</max>
+      </fov>
+      <pannorth>179</pannorth>
+    </viewingparameter>
+    <userdata/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>153.499</pan>
+          <tilt>0.229637</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_1_25_To_Bibliothek</id>
+        <title>Zur Vorderseite der Bib</title>
+        <skinid>Gang_1_25_To_Bibliothek</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-69.327</pan>
+          <tilt>-1.24859</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_1_25_To_Gang_1_Treppe</id>
+        <title>Zu den Treppen</title>
+        <skinid>Gang_1_25_To_Gang_1_Treppe</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-96.0822</pan>
+          <tilt>-0.982839</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_1_25_To_Gang_1_24</id>
+        <title>Weiter?</title>
+        <skinid>Gang_1_25_To_Gang_1_24</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>72.9574</pan>
+          <tilt>-0.731875</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_1_25_To_Gang_1_15</id>
+        <title>Gehe weiter</title>
+        <skinid>Gang_1_25_To_Gang_1_15</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>174.23</pan>
+          <tilt>-0.669289</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Lehrerzimmer_In</id>
+        <title>Lehrerzimmer</title>
+        <skinid>Lehrerzimmer_In</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-169.324</pan>
+          <tilt>-0.453558</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Sekretariat_In</id>
+        <title>Sekretariat</title>
+        <skinid>Sekretariat_In</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>13.4006</pan>
+          <tilt>-14.7671</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_1_25_To_EG</id>
+        <skinid>Gang_1_25_To_EG</skinid>
+      </hotspot>
+    </hotspots>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>Gang 1_25.html</filename>
+          <template>normal.ggt</template>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="fullscreen">true</value>
+            <value id="gyro">true</value>
+            <value id="gyrodisable">false</value>
+            <value id="gyronorth">true</value>
+            <value id="jsxml">false</value>
+            <value id="manifest">false</value>
+            <value id="maps">false</value>
+            <value id="parseanchor">false</value>
+            <value id="showuserdata">false</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+            <value id="tablebgcolor">#dddddd</value>
+            <value id="tablebordercolor">#777777</value>
+            <value id="tabletextcolor">#000000</value>
+            <value id="textcolor">#000000</value>
+            <value id="touchicon"></value>
+          </values>
+        </html>
+        <facequality/>
+        <autorotate>
+          <enabled>0</enabled>
+          <speed>0.4</speed>
+          <delay>5</delay>
+          <returntohorizon>0</returntohorizon>
+          <afterloaded>0</afterloaded>
+        </autorotate>
+        <hotspottext>
+          <enabled>1</enabled>
+          <width>180</width>
+          <height>20</height>
+          <auto>0</auto>
+          <textcolor>#000000</textcolor>
+          <textwrap>1</textwrap>
+          <background>1</background>
+          <backgroundcolor>#ffffff</backgroundcolor>
+          <border>1</border>
+          <bordercolor>#000000</bordercolor>
+          <borderradius>1</borderradius>
+        </hotspottext>
+        <hotspotstyle>
+          <viewmode>hidden</viewmode>
+          <backgroundcolor>#0000ff,64</backgroundcolor>
+          <bordercolor>#0000ff</bordercolor>
+        </hotspotstyle>
+        <filename>Gang 1_25_out.xml</filename>
+        <tilesize>1542</tilesize>
+        <quality>100</quality>
+        <progressivejpeg>0</progressivejpeg>
+        <cubefilename>images/$n_o.jpg</cubefilename>
+        <cubefacenaming>_5</cubefacenaming>
+        <windowwidth>1920</windowwidth>
+        <windowheight>1080</windowheight>
+        <fovmode>diagonal</fovmode>
+        <sensitivity>8</sensitivity>
+        <masssimulation>1</masssimulation>
+        <locked>0</locked>
+        <invertcontrol>1</invertcontrol>
+        <dblclickfullscreen>0</dblclickfullscreen>
+        <lockedwheel>0</lockedwheel>
+        <invertwheel>0</invertwheel>
+        <speedwheel>1</speedwheel>
+        <keyboardlocked>0</keyboardlocked>
+        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinSvgToPng>0</skinSvgToPng>
+        <skinimagepath>images</skinimagepath>
+        <preview>grayscale</preview>
+        <previewresolution>4</previewresolution>
+        <previewcolor>#808080</previewcolor>
+        <leveltileenabled>0</leveltileenabled>
+        <leveltilesize>512</leveltilesize>
+        <leveltilefilename>tiles/$n/c%c_l%r_%y_%x.jpg</leveltilefilename>
+        <leveltilegeneratefiles>1</leveltilegeneratefiles>
+        <leveltileoverlap>1</leveltileoverlap>
+        <levelswitchbias>0.4</levelswitchbias>
+        <previewquality>25</previewquality>
+      </htmlcss>
+    </output>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>
