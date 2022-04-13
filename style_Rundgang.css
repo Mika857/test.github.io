@@ -16,12 +16,6 @@ header{
     font-size: 40px;
 }
 
-a{
-    background: #009432;
-    color:black;
-    text-decoration: none;
-}
-
 .survey{
     margin: 0 auto;
     margin-top: 10%;
@@ -32,6 +26,11 @@ a{
     color: white;
     padding: 7px 7px;
     box-shadow: 1px 1px 20px black;
+}
+
+.option{
+    padding-top:3%;
+    background-color: #009432;
 }
 
 .survey h3{
@@ -45,7 +44,7 @@ a{
     cursor: pointer;
     text-decoration: none;
     list-style: none;
-    margin: 5px auto;
+    margin: 5% auto;
     background: #009432;
     color: #D4F1F4;
     font-size: 22px;
@@ -60,6 +59,7 @@ a{
     border-radius: 5px;
 }
 
+
 .survey ul{
     background-color: #009432;
 }
@@ -70,6 +70,17 @@ a{
 
 #end{
    display: none; 
+}
+
+@media all and (max-width: 800px){
+    .survey li{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .survey h3{
+        font-size: 20px;
+    }
 }
 
 
