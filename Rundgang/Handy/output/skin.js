@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang_Handy.ggsk
-// Generated Mi. Apr 13 16:14:38 2022
+// Generated Mi. Apr 13 16:26:20 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -4762,7 +4762,7 @@ function pano2vrSkin(player,base) {
 			} else {
 				me._mapholder.style[domTransition]='all 500ms ease-out 0ms';
 			}
-			me._mapholder.ggParameter.sx=1;me._mapholder.ggParameter.sy=1;
+			me._mapholder.ggParameter.sx=0.7;me._mapholder.ggParameter.sy=0.7;
 			me._mapholder.style[domTransform]=parameterToTransform(me._mapholder.ggParameter);
 			flag=(me._karte_vergroesern_button.style.visibility=='hidden');
 			me._karte_vergroesern_button.style[domTransition]='none';
@@ -6524,7 +6524,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openUrl("http:\/\/maxner-mm.de\/Rundgang\/Vids\/Physik.mp4","");
+				me.player.openUrl("https:\/\/myykami.github.io\/Rundgang\/Vids\/Physik.mp4","");
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
@@ -8527,7 +8527,7 @@ function pano2vrSkin(player,base) {
 			hs+='visibility: inherit;';
 			this.__div.setAttribute('style',hs);
 			this.__div.onclick=function () {
-				me.player.openUrl("http:\/\/maxner-mm.de\/Rundgang\/Vids\/Chemie.mp4","");
+				me.player.openUrl("https:\/\/myykami.github.io\/Rundgang\/Vids\/Chemie.mp4","");
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
