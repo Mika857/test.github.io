@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <view fovmode="3" pannorth="179">
+    <start pan="87" fov="102.448" tilt="-0.5"/>
+    <min pan="0" fov="5" tilt="-90"/>
+    <max pan="360" fov="120" tilt="90"/>
+  </view>
+  <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0,2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="" target="" pan="87.6321" skinid="Gang_U_27_To_Gang_U_21" url="" id="Gang_U_27_To_Gang_U_21" tilt="-1.80229"/>
+    <hotspot title="Betrete U26" target="" pan="-101.897" skinid="Room_In_U_26" url="" id="Room_In_U_26" tilt="-0.334415"/>
+    <hotspot title="Betrete U23" target="" pan="-91.936" skinid="Room_In_U_23" url="" id="Room_In_U_23" tilt="-0.504139"/>
+    <hotspot title="Robotik" target="" pan="82.6509" skinid="Robotik_In" url="" id="Robotik_In" tilt="-0.603179"/>
+  </hotspots>
+  <media/>
+  <input tile0url="images/Gang U_27_o_0.jpg" prev5url="images/Gang U_27_o_preview_5.jpg" prev4url="images/Gang U_27_o_preview_4.jpg" prev3url="images/Gang U_27_o_preview_3.jpg" prev2url="images/Gang U_27_o_preview_2.jpg" prev1url="images/Gang U_27_o_preview_1.jpg" prev0url="images/Gang U_27_o_preview_0.jpg" tile5url="images/Gang U_27_o_5.jpg" tilesize="1542" tile4url="images/Gang U_27_o_4.jpg" tile3url="images/Gang U_27_o_3.jpg" tilescale="1.006485" tile2url="images/Gang U_27_o_2.jpg" tile1url="images/Gang U_27_o_1.jpg">
+    <preview color="0x808080"/>
+  </input>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>

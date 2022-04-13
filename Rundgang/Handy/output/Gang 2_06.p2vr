@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <filename>../Raeume/2. Stock/Gang 2_06/Gang 2_06.jpg</filename>
+      <type>auto</type>
+      <hfov>360</hfov>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>246</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>2</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>70</start>
+        <minunit>degrees</minunit>
+        <min>5</min>
+        <max>120</max>
+      </fov>
+      <pannorth>149.5</pannorth>
+    </viewingparameter>
+    <userdata/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>-120.674</pan>
+          <tilt>1.03088</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Gang_2_06_To_Gang_2_Treppe</id>
+        <title>Gehe weiter!</title>
+        <skinid>Gang_2_06_To_Gang_2_Treppe</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>110.616</pan>
+          <tilt>-2.10598</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_In_2_07</id>
+        <title>Chemieklassenzimmer mit feurigem Versuch!</title>
+        <skinid>Room_In_2_07</skinid>
+      </hotspot>
+      <hotspot>
+        <position>
+          <pan>-147.532</pan>
+          <tilt>1.10274</tilt>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Room_In_2_08</id>
+        <title>Chemiesammlung</title>
+        <skinid>Room_In_2_08</skinid>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon>
+          <vertex>
+            <pan>-159.347</pan>
+            <tilt>9.7017</tilt>
+          </vertex>
+          <vertex>
+            <pan>168.346</pan>
+            <tilt>13.2314</tilt>
+          </vertex>
+          <vertex>
+            <pan>168.532</pan>
+            <tilt>-30.6548</tilt>
+          </vertex>
+          <vertex>
+            <pan>-159.294</pan>
+            <tilt>-21.3691</tilt>
+          </vertex>
+          <vertex>
+            <pan>-158.491</pan>
+            <tilt>-7.95367</tilt>
+          </vertex>
+        </polygon>
+        <type>poly</type>
+        <id>E_Gaming</id>
+        <title>&lt;div style="font-size:15px;color:white">&lt;b>Moment mal!&lt;/b>&lt;/div></title>
+        <url>Gang 2_06_E_out.xml</url>
+        <skinid>E_Gaming</skinid>
+      </hotspot>
+      <hotspot>
+        <position/>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon>
+          <vertex>
+            <pan>-63.8797</pan>
+            <tilt>-8.64216</tilt>
+          </vertex>
+          <vertex>
+            <pan>-79.7564</pan>
+            <tilt>-6.98034</tilt>
+          </vertex>
+          <vertex>
+            <pan>-79.4052</pan>
+            <tilt>9.15878</tilt>
+          </vertex>
+          <vertex>
+            <pan>-63.9539</pan>
+            <tilt>10.3785</tilt>
+          </vertex>
+        </polygon>
+        <type>poly</type>
+        <id>E_2</id>
+        <title>&lt;div style="font-size:15px;color:white">&lt;b>Faule Socke!&lt;/b>&lt;/div></title>
+        <url>Gang 2_06_E_2_out.xml</url>
+      </hotspot>
+    </hotspots>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>Gang 2_06.html</filename>
+          <template>normal.ggt</template>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="fullscreen">true</value>
+            <value id="gyro">true</value>
+            <value id="gyrodisable">false</value>
+            <value id="gyronorth">true</value>
+            <value id="jsxml">false</value>
+            <value id="manifest">false</value>
+            <value id="maps">false</value>
+            <value id="parseanchor">false</value>
+            <value id="showuserdata">false</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+            <value id="tablebgcolor">#dddddd</value>
+            <value id="tablebordercolor">#777777</value>
+            <value id="tabletextcolor">#000000</value>
+            <value id="textcolor">#000000</value>
+            <value id="touchicon"></value>
+          </values>
+        </html>
+        <facequality/>
+        <autorotate>
+          <enabled>0</enabled>
+          <speed>0.4</speed>
+          <delay>5</delay>
+          <returntohorizon>0</returntohorizon>
+          <afterloaded>0</afterloaded>
+        </autorotate>
+        <hotspottext>
+          <enabled>1</enabled>
+          <width>180</width>
+          <height>20</height>
+          <auto>0</auto>
+          <textcolor>#000000</textcolor>
+          <textwrap>1</textwrap>
+          <background>1</background>
+          <backgroundcolor>#ffffff</backgroundcolor>
+          <border>1</border>
+          <bordercolor>#000000</bordercolor>
+          <borderradius>1</borderradius>
+        </hotspottext>
+        <hotspotstyle>
+          <viewmode>hidden</viewmode>
+          <backgroundcolor>#0000ff,64</backgroundcolor>
+          <bordercolor>#0000ff</bordercolor>
+        </hotspotstyle>
+        <filename>Gang 2_06_out.xml</filename>
+        <tilesize>1542</tilesize>
+        <quality>100</quality>
+        <progressivejpeg>0</progressivejpeg>
+        <cubefilename>images/$n_o.jpg</cubefilename>
+        <cubefacenaming>_5</cubefacenaming>
+        <windowwidth>1920</windowwidth>
+        <windowheight>1080</windowheight>
+        <fovmode>nax</fovmode>
+        <sensitivity>8</sensitivity>
+        <masssimulation>1</masssimulation>
+        <locked>0</locked>
+        <invertcontrol>1</invertcontrol>
+        <dblclickfullscreen>0</dblclickfullscreen>
+        <lockedwheel>0</lockedwheel>
+        <invertwheel>0</invertwheel>
+        <speedwheel>1</speedwheel>
+        <keyboardlocked>0</keyboardlocked>
+        <skinSvgToPng>0</skinSvgToPng>
+        <skinimagepath>images</skinimagepath>
+        <preview>grayscale</preview>
+        <previewresolution>4</previewresolution>
+        <previewcolor>#808080</previewcolor>
+        <leveltileenabled>0</leveltileenabled>
+        <leveltilesize>512</leveltilesize>
+        <leveltilefilename>tiles/$n/c%c_l%r_%y_%x.jpg</leveltilefilename>
+        <leveltilegeneratefiles>1</leveltilegeneratefiles>
+        <leveltileoverlap>1</leveltileoverlap>
+        <levelswitchbias>0.4</levelswitchbias>
+        <previewquality>25</previewquality>
+        <skinfile>/run/media/mika/Volume/Rundgang/Skins/Rundgang.ggsk</skinfile>
+      </htmlcss>
+    </output>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>
