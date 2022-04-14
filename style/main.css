@@ -3,15 +3,16 @@ body{
     padding: 0;
     font-family:Calibri;
 	background:#2c3e50;
+    height: 100%;
 }
 
 header {
     background: #009432;
-    height: 150px;
+    height: 20%;
     border-bottom: solid 3px #006266;
     position:absolute;
     width:100%;
-    min-height:90px;
+    /* min-height:90px; */
 }
 
 a{
@@ -55,8 +56,18 @@ a{
 
 .header-nav-li {
     margin: 0 15px;
-    padding: 0 5px;
+    padding: 20px 20px;
 }
+
+/* #content{
+    color:white;
+    position:absolute;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 50%;
+} */
 
 /*ul li a:after{
     content:'';
@@ -111,9 +122,10 @@ ul li a:hover:after{
     }
 }*/
 
+
 @media (max-width: 1200px){
     header{
-        height:120px;
+        height:300px;
     }
     .header-nav-ul{
         display:block;

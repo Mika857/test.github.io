@@ -6,11 +6,11 @@
     <max pan="360" fov="120" tilt="90"/>
   </view>
   <userdata title="" datetime="" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
-    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+  <hotspots width="150" height="0" wordwrap="1">
+    <label width="150" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0x000000" bordercolor="0x000000" border="1" textcolor="0xffffff" background="1" borderalpha="1" borderradius="5" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0,2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
     <hotspot title="" target="" pan="-29.6634" skinid="Buehne_To_Aula" url="" id="Buehne_To_Aula" tilt="-10.6759"/>
-    <polyhotspot title="Gefunden! Klicke hier!" target="_blank" url="Buehne_Gruppenbild_out.xml" id="E_Gruppenbild">
+    <polyhotspot title="&lt;b>&lt;span style=&quot;font-size:20px;color:white&quot;>Gefunden! Klicke hier!&lt;/span>&lt;/b>" target="_blank" url="Buehne_Gruppenbild_out.xml" id="E_Gruppenbild">
       <vertex pan="-24.5286" tilt="-48.9575"/>
       <vertex pan="-24" tilt="-54.676"/>
       <vertex pan="-37.275" tilt="-54.1146"/>

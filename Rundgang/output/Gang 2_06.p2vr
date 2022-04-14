@@ -180,16 +180,16 @@
         </autorotate>
         <hotspottext>
           <enabled>1</enabled>
-          <width>180</width>
+          <width>130</width>
           <height>20</height>
-          <auto>0</auto>
-          <textcolor>#000000</textcolor>
+          <auto>1</auto>
+          <textcolor>#ffffff</textcolor>
           <textwrap>1</textwrap>
           <background>1</background>
-          <backgroundcolor>#ffffff</backgroundcolor>
+          <backgroundcolor>#000000</backgroundcolor>
           <border>1</border>
           <bordercolor>#000000</bordercolor>
-          <borderradius>1</borderradius>
+          <borderradius>5</borderradius>
         </hotspottext>
         <hotspotstyle>
           <viewmode>hidden</viewmode>
@@ -226,7 +226,7 @@
         <leveltileoverlap>1</leveltileoverlap>
         <levelswitchbias>0.4</levelswitchbias>
         <previewquality>25</previewquality>
-        <skinfile>/run/media/mika/Volume/Rundgang/Skins/Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
       </htmlcss>
     </output>
     <sounds/>

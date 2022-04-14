@@ -71,7 +71,7 @@
         </polygon>
         <type>poly</type>
         <id>E_Gruppenbild</id>
-        <title>Gefunden! Klicke hier!</title>
+        <title>&lt;b>&lt;span style="font-size:20px;color:white">Gefunden! Klicke hier!&lt;/span>&lt;/b></title>
         <url>Buehne_Gruppenbild_out.xml</url>
         <target>_blank</target>
         <skinid>E_Gruppenbild</skinid>
@@ -114,16 +114,16 @@
         </autorotate>
         <hotspottext>
           <enabled>1</enabled>
-          <width>180</width>
+          <width>150</width>
           <height>20</height>
-          <auto>0</auto>
-          <textcolor>#000000</textcolor>
+          <auto>1</auto>
+          <textcolor>#ffffff</textcolor>
           <textwrap>1</textwrap>
           <background>1</background>
-          <backgroundcolor>#ffffff</backgroundcolor>
+          <backgroundcolor>#000000</backgroundcolor>
           <border>1</border>
           <bordercolor>#000000</bordercolor>
-          <borderradius>1</borderradius>
+          <borderradius>5</borderradius>
         </hotspottext>
         <hotspotstyle>
           <viewmode>hidden</viewmode>
@@ -148,7 +148,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>Rundgang.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
