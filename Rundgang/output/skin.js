@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Do. Apr 14 18:58:26 2022
+// Generated Sa. Apr 16 15:11:34 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -259,7 +259,7 @@ function pano2vrSkin(player,base) {
 		hs+='left: 0px;';
 		hs+='top:  -1px;';
 		hs+='width: 1337px;';
-		hs+='height: 420px;';
+		hs+='height: 452px;';
 		hs+=cssPrefix + 'transform-origin: 0% 0%;';
 		hs+='opacity: 0;';
 		hs+='visibility: hidden;';
@@ -1493,7 +1493,7 @@ function pano2vrSkin(player,base) {
 		hs+='left: 103px;';
 		hs+='top:  9px;';
 		hs+='width: 924px;';
-		hs+='height: 343px;';
+		hs+='height: 375px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='opacity: 0.8;';
 		hs+='visibility: inherit;';
@@ -2951,9 +2951,9 @@ function pano2vrSkin(player,base) {
 		this._map_erdgeschoss_.className='ggskin ggskin_image';
 		this._map_erdgeschoss_.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 175px;';
+		hs+='left: 162px;';
 		hs+='top:  15px;';
-		hs+='width: 648px;';
+		hs+='width: 660px;';
 		hs+='height: 403px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='opacity: 0.8;';
@@ -3421,7 +3421,7 @@ function pano2vrSkin(player,base) {
 		this._room_0_24.className='ggskin ggskin_image';
 		this._room_0_24.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 579px;';
+		hs+='left: 576px;';
 		hs+='top:  235px;';
 		hs+='width: 32px;';
 		hs+='height: 32px;';
@@ -3439,10 +3439,10 @@ function pano2vrSkin(player,base) {
 		this._room_0_24.appendChild(this._room_0_24__img);
 		this._room_0_24.onclick=function () {
 			me._current_selection_e.style[domTransition]='none';
-			me._current_selection_e.ggParameter.rx=579;me._current_selection_e.ggParameter.ry=235;
+			me._current_selection_e.ggParameter.rx=576;me._current_selection_e.ggParameter.ry=235;
 			me._current_selection_e.style[domTransform]=parameterToTransform(me._current_selection_e.ggParameter);
 			me._orientierung_e.style[domTransition]='none';
-			me._orientierung_e.ggParameter.rx=579;me._orientierung_e.ggParameter.ry=235;
+			me._orientierung_e.ggParameter.rx=576;me._orientierung_e.ggParameter.ry=235;
 			me._orientierung_e.style[domTransform]=parameterToTransform(me._orientierung_e.ggParameter);
 			me.player.openNext("0_24_out.xml","");
 		}
@@ -3637,8 +3637,8 @@ function pano2vrSkin(player,base) {
 		hs ='position:absolute;';
 		hs+='left: 283px;';
 		hs+='top:  22px;';
-		hs+='width: 750px;';
-		hs+='height: 360px;';
+		hs+='width: 775px;';
+		hs+='height: 388px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='opacity: 0.8;';
 		hs+='visibility: inherit;';
@@ -4734,323 +4734,6 @@ function pano2vrSkin(player,base) {
 			me._closemap.style[domTransform]=parameterToTransform(me._closemap.ggParameter);
 		}
 		this._mapholder.appendChild(this._closemap);
-		this._karte_vergroesern_button=document.createElement('div');
-		this._karte_vergroesern_button__text=document.createElement('div');
-		this._karte_vergroesern_button.className='ggskin ggskin_textdiv';
-		this._karte_vergroesern_button.ggTextDiv=this._karte_vergroesern_button__text;
-		this._karte_vergroesern_button.ggId="Karte_Vergroesern_Button";
-		this._karte_vergroesern_button.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._karte_vergroesern_button.ggVisible=true;
-		this._karte_vergroesern_button.className='ggskin ggskin_text';
-		this._karte_vergroesern_button.ggType='text';
-		this._karte_vergroesern_button.ggUpdatePosition=function() {
-			this.style[domTransition]='none';
-			this.ggTextDiv.style.left=Math.floor(0 + (170-this.ggTextDiv.offsetWidth)/2) + 'px';
-		}
-		hs ='position:absolute;';
-		hs+='left: 7px;';
-		hs+='top:  369px;';
-		hs+='width: 152px;';
-		hs+='height: 25px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='opacity: 0.9;';
-		hs+='visibility: inherit;';
-		this._karte_vergroesern_button.setAttribute('style',hs);
-		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  0px;';
-		hs+='width: auto;';
-		hs+='height: auto;';
-		hs+='background: #171717;';
-		hs+='background: rgba(23,23,23,0.784314);';
-		hs+='border: 8px solid #171717;';
-		hs+='border: 8px solid rgba(23,23,23,0.784314);';
-		hs+=cssPrefix + 'background-clip: padding-box;';
-		hs+='background-clip: padding-box;';
-		hs+='border-radius: 4px;';
-		hs+=cssPrefix + 'border-radius: 4px;';
-		hs+='color: #000000;';
-		hs+='text-align: center;';
-		hs+='white-space: nowrap;';
-		hs+='padding: 1px 2px 1px 2px;';
-		hs+='overflow: hidden;';
-		this._karte_vergroesern_button__text.setAttribute('style',hs);
-		this._karte_vergroesern_button.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Karte vergr\xf6\xdfern<\/b><\/div>";
-		this._karte_vergroesern_button.appendChild(this._karte_vergroesern_button__text);
-		this._karte_vergroesern_button.onclick=function () {
-			if (me.player.transitionsDisabled) {
-				me._mapholder.style[domTransition]='none';
-			} else {
-				me._mapholder.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._mapholder.ggParameter.sx=1;me._mapholder.ggParameter.sy=1;
-			me._mapholder.style[domTransform]=parameterToTransform(me._mapholder.ggParameter);
-			flag=(me._karte_vergroesern_button.style.visibility=='hidden');
-			me._karte_vergroesern_button.style[domTransition]='none';
-			me._karte_vergroesern_button.style.visibility=flag?'inherit':'hidden';
-			me._karte_vergroesern_button.ggVisible=flag;
-			flag=(me._karte_verkleinern_button.style.visibility=='hidden');
-			me._karte_verkleinern_button.style[domTransition]='none';
-			me._karte_verkleinern_button.style.visibility=flag?'inherit':'hidden';
-			me._karte_verkleinern_button.ggVisible=flag;
-		}
-		this._karte_vergroesern_button.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._karte_vergroesern_button.style[domTransition]='none';
-			} else {
-				me._karte_vergroesern_button.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._karte_vergroesern_button.ggParameter.sx=1.1;me._karte_vergroesern_button.ggParameter.sy=1.1;
-			me._karte_vergroesern_button.style[domTransform]=parameterToTransform(me._karte_vergroesern_button.ggParameter);
-		}
-		this._karte_vergroesern_button.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._karte_vergroesern_button.style[domTransition]='none';
-			} else {
-				me._karte_vergroesern_button.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._karte_vergroesern_button.ggParameter.sx=1;me._karte_vergroesern_button.ggParameter.sy=1;
-			me._karte_vergroesern_button.style[domTransform]=parameterToTransform(me._karte_vergroesern_button.ggParameter);
-		}
-		this._mapholder.appendChild(this._karte_vergroesern_button);
-		this._karte_verkleinern_button=document.createElement('div');
-		this._karte_verkleinern_button__text=document.createElement('div');
-		this._karte_verkleinern_button.className='ggskin ggskin_textdiv';
-		this._karte_verkleinern_button.ggTextDiv=this._karte_verkleinern_button__text;
-		this._karte_verkleinern_button.ggId="Karte_Verkleinern_Button";
-		this._karte_verkleinern_button.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._karte_verkleinern_button.ggVisible=false;
-		this._karte_verkleinern_button.className='ggskin ggskin_text';
-		this._karte_verkleinern_button.ggType='text';
-		this._karte_verkleinern_button.ggUpdatePosition=function() {
-			this.style[domTransition]='none';
-			this.ggTextDiv.style.left=Math.floor(0 + (170-this.ggTextDiv.offsetWidth)/2) + 'px';
-		}
-		hs ='position:absolute;';
-		hs+='left: 7px;';
-		hs+='top:  369px;';
-		hs+='width: 152px;';
-		hs+='height: 25px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='opacity: 0.8;';
-		hs+='visibility: hidden;';
-		this._karte_verkleinern_button.setAttribute('style',hs);
-		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  0px;';
-		hs+='width: auto;';
-		hs+='height: auto;';
-		hs+='background: #171717;';
-		hs+='background: rgba(23,23,23,0.784314);';
-		hs+='border: 8px solid #171717;';
-		hs+='border: 8px solid rgba(23,23,23,0.784314);';
-		hs+=cssPrefix + 'background-clip: padding-box;';
-		hs+='background-clip: padding-box;';
-		hs+='border-radius: 4px;';
-		hs+=cssPrefix + 'border-radius: 4px;';
-		hs+='color: #ffffff;';
-		hs+='text-align: center;';
-		hs+='white-space: nowrap;';
-		hs+='padding: 1px 2px 1px 2px;';
-		hs+='overflow: hidden;';
-		this._karte_verkleinern_button__text.setAttribute('style',hs);
-		this._karte_verkleinern_button.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Karte verkleinern<\/b><\/div>";
-		this._karte_verkleinern_button.appendChild(this._karte_verkleinern_button__text);
-		this._karte_verkleinern_button.onclick=function () {
-			if (me.player.transitionsDisabled) {
-				me._mapholder.style[domTransition]='none';
-			} else {
-				me._mapholder.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._mapholder.ggParameter.sx=0.5;me._mapholder.ggParameter.sy=0.5;
-			me._mapholder.style[domTransform]=parameterToTransform(me._mapholder.ggParameter);
-			flag=(me._karte_verkleinern_button.style.visibility=='hidden');
-			me._karte_verkleinern_button.style[domTransition]='none';
-			me._karte_verkleinern_button.style.visibility=flag?'inherit':'hidden';
-			me._karte_verkleinern_button.ggVisible=flag;
-			flag=(me._karte_vergroesern_button.style.visibility=='hidden');
-			me._karte_vergroesern_button.style[domTransition]='none';
-			me._karte_vergroesern_button.style.visibility=flag?'inherit':'hidden';
-			me._karte_vergroesern_button.ggVisible=flag;
-		}
-		this._karte_verkleinern_button.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._karte_verkleinern_button.style[domTransition]='none';
-			} else {
-				me._karte_verkleinern_button.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._karte_verkleinern_button.ggParameter.sx=1.1;me._karte_verkleinern_button.ggParameter.sy=1.1;
-			me._karte_verkleinern_button.style[domTransform]=parameterToTransform(me._karte_verkleinern_button.ggParameter);
-		}
-		this._karte_verkleinern_button.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._karte_verkleinern_button.style[domTransition]='none';
-			} else {
-				me._karte_verkleinern_button.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._karte_verkleinern_button.ggParameter.sx=1;me._karte_verkleinern_button.ggParameter.sy=1;
-			me._karte_verkleinern_button.style[domTransform]=parameterToTransform(me._karte_verkleinern_button.ggParameter);
-		}
-		this._mapholder.appendChild(this._karte_verkleinern_button);
-		this._button_draussen=document.createElement('div');
-		this._button_draussen__text=document.createElement('div');
-		this._button_draussen.className='ggskin ggskin_textdiv';
-		this._button_draussen.ggTextDiv=this._button_draussen__text;
-		this._button_draussen.ggId="Button_Draussen";
-		this._button_draussen.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._button_draussen.ggVisible=true;
-		this._button_draussen.className='ggskin ggskin_text';
-		this._button_draussen.ggType='text';
-		hs ='position:absolute;';
-		hs+='left: 1077px;';
-		hs+='top:  362px;';
-		hs+='width: 169px;';
-		hs+='height: 23px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		this._button_draussen.setAttribute('style',hs);
-		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  0px;';
-		hs+='width: 169px;';
-		hs+='height: 23px;';
-		hs+='background: #171717;';
-		hs+='background: rgba(23,23,23,0.784314);';
-		hs+='border: 8px solid #171717;';
-		hs+='border: 8px solid rgba(23,23,23,0.784314);';
-		hs+=cssPrefix + 'background-clip: padding-box;';
-		hs+='background-clip: padding-box;';
-		hs+='border-radius: 4px;';
-		hs+=cssPrefix + 'border-radius: 4px;';
-		hs+='color: #e8e8e8;';
-		hs+='text-align: center;';
-		hs+='white-space: nowrap;';
-		hs+='padding: 1px 2px 1px 2px;';
-		hs+='overflow: hidden;';
-		this._button_draussen__text.setAttribute('style',hs);
-		this._button_draussen.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Drau\xdfen<\/b><\/div>";
-		this._button_draussen.appendChild(this._button_draussen__text);
-		this._button_draussen.onclick=function () {
-			me._stockwerk_wechsel_text.style[domTransition]='none';
-			me._stockwerk_wechsel_text.style.visibility='hidden';
-			me._stockwerk_wechsel_text.ggVisible=false;
-			me._map_draussen.style[domTransition]='none';
-			me._map_draussen.style.visibility='inherit';
-			me._map_draussen.ggVisible=true;
-			me._d_haupteingang.onclick();
-			me._button_draussen.style[domTransition]='none';
-			me._button_draussen.style.visibility='hidden';
-			me._button_draussen.ggVisible=false;
-			me._button_drinnen.style[domTransition]='none';
-			me._button_drinnen.style.visibility='inherit';
-			me._button_drinnen.ggVisible=true;
-			me._stockwerk_wechsel.style[domTransition]='none';
-			me._stockwerk_wechsel.style.visibility='hidden';
-			me._stockwerk_wechsel.ggVisible=false;
-			me._map_keller.style[domTransition]='none';
-			me._map_keller.style.opacity='0';
-			me._map_keller.style.visibility='hidden';
-			me._map_erdgeschoss.style[domTransition]='none';
-			me._map_erdgeschoss.style.opacity='0';
-			me._map_erdgeschoss.style.visibility='hidden';
-			me._map_1.style[domTransition]='none';
-			me._map_1.style.opacity='0';
-			me._map_1.style.visibility='hidden';
-			me._map_2.style[domTransition]='none';
-			me._map_2.style.opacity='0';
-			me._map_2.style.visibility='hidden';
-			me._map_3.style[domTransition]='none';
-			me._map_3.style.opacity='0';
-			me._map_3.style.visibility='hidden';
-			me._help_container.style[domTransition]='none';
-			me._help_container.style.opacity='0';
-			me._help_container.style.visibility='hidden';
-		}
-		this._button_draussen.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._button_draussen.style[domTransition]='none';
-			} else {
-				me._button_draussen.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._button_draussen.ggParameter.sx=1.2;me._button_draussen.ggParameter.sy=1.2;
-			me._button_draussen.style[domTransform]=parameterToTransform(me._button_draussen.ggParameter);
-		}
-		this._button_draussen.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._button_draussen.style[domTransition]='none';
-			} else {
-				me._button_draussen.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._button_draussen.ggParameter.sx=1;me._button_draussen.ggParameter.sy=1;
-			me._button_draussen.style[domTransform]=parameterToTransform(me._button_draussen.ggParameter);
-		}
-		this._mapholder.appendChild(this._button_draussen);
-		this._button_drinnen=document.createElement('div');
-		this._button_drinnen__text=document.createElement('div');
-		this._button_drinnen.className='ggskin ggskin_textdiv';
-		this._button_drinnen.ggTextDiv=this._button_drinnen__text;
-		this._button_drinnen.ggId="Button_Drinnen";
-		this._button_drinnen.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._button_drinnen.ggVisible=true;
-		this._button_drinnen.className='ggskin ggskin_text';
-		this._button_drinnen.ggType='text';
-		hs ='position:absolute;';
-		hs+='left: 1077px;';
-		hs+='top:  362px;';
-		hs+='width: 169px;';
-		hs+='height: 23px;';
-		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
-		this._button_drinnen.setAttribute('style',hs);
-		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  0px;';
-		hs+='width: 169px;';
-		hs+='height: 23px;';
-		hs+='background: #171717;';
-		hs+='background: rgba(23,23,23,0.784314);';
-		hs+='border: 8px solid #171717;';
-		hs+='border: 8px solid rgba(23,23,23,0.784314);';
-		hs+=cssPrefix + 'background-clip: padding-box;';
-		hs+='background-clip: padding-box;';
-		hs+='border-radius: 4px;';
-		hs+=cssPrefix + 'border-radius: 4px;';
-		hs+='color: #e8e8e8;';
-		hs+='text-align: center;';
-		hs+='white-space: nowrap;';
-		hs+='padding: 1px 2px 1px 2px;';
-		hs+='overflow: hidden;';
-		this._button_drinnen__text.setAttribute('style',hs);
-		this._button_drinnen.ggTextDiv.innerHTML="<div style=\"font-size:15px;color:white\"><b>Drinnen<\/b><\/div>";
-		this._button_drinnen.appendChild(this._button_drinnen__text);
-		this._button_drinnen.onclick=function () {
-			me._button_draussen.style[domTransition]='none';
-			me._button_draussen.style.visibility='inherit';
-			me._button_draussen.ggVisible=true;
-			me._reset.onclick();
-			me._help_container.style[domTransition]='none';
-			me._help_container.style.opacity='1';
-			me._help_container.style.visibility=me._help_container.ggVisible?'inherit':'hidden';
-		}
-		this._button_drinnen.onmouseover=function () {
-			if (me.player.transitionsDisabled) {
-				me._button_drinnen.style[domTransition]='none';
-			} else {
-				me._button_drinnen.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._button_drinnen.ggParameter.sx=1.2;me._button_drinnen.ggParameter.sy=1.2;
-			me._button_drinnen.style[domTransform]=parameterToTransform(me._button_drinnen.ggParameter);
-		}
-		this._button_drinnen.onmouseout=function () {
-			if (me.player.transitionsDisabled) {
-				me._button_drinnen.style[domTransition]='none';
-			} else {
-				me._button_drinnen.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._button_drinnen.ggParameter.sx=1;me._button_drinnen.ggParameter.sy=1;
-			me._button_drinnen.style[domTransform]=parameterToTransform(me._button_drinnen.ggParameter);
-		}
-		this._mapholder.appendChild(this._button_drinnen);
 		this._help_container=document.createElement('div');
 		this._help_container.ggId="Help_Container";
 		this._help_container.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
@@ -5068,7 +4751,7 @@ function pano2vrSkin(player,base) {
 		this._button_help_2=document.createElement('div');
 		this._button_help_2.ggId="Button_Help_2";
 		this._button_help_2.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._button_help_2.ggVisible=true;
+		this._button_help_2.ggVisible=false;
 		this._button_help_2.className='ggskin ggskin_image';
 		this._button_help_2.ggType='image';
 		hs ='position:absolute;';
@@ -5176,36 +4859,10 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._button_help__img);
 		this._button_help.appendChild(this._button_help__img);
 		this._button_help.onclick=function () {
-			me._map_erdgeschoss_.style[domTransition]='none';
-			me._map_erdgeschoss_.style.opacity='0';
-			me._map_erdgeschoss_.style.visibility='hidden';
-			me._help_e.style[domTransition]='none';
-			me._help_e.style.opacity='1';
-			me._help_e.style.visibility=me._help_e.ggVisible?'inherit':'hidden';
-			me._help_k.style[domTransition]='none';
-			me._help_k.style.opacity='1';
-			me._help_k.style.visibility=me._help_k.ggVisible?'inherit':'hidden';
-			me._map_keller_.style[domTransition]='none';
-			me._map_keller_.style.opacity='0';
-			me._map_keller_.style.visibility='hidden';
-			me._help_1.style[domTransition]='none';
-			me._help_1.style.opacity='1';
-			me._help_1.style.visibility=me._help_1.ggVisible?'inherit':'hidden';
-			me._map_1_.style[domTransition]='none';
-			me._map_1_.style.opacity='0';
-			me._map_1_.style.visibility='hidden';
-			me._help_2.style[domTransition]='none';
-			me._help_2.style.opacity='1';
-			me._help_2.style.visibility=me._help_2.ggVisible?'inherit':'hidden';
-			me._map_2_.style[domTransition]='none';
-			me._map_2_.style.opacity='0';
-			me._map_2_.style.visibility='hidden';
-			me._button_help.style[domTransition]='none';
-			me._button_help.style.opacity='0';
-			me._button_help.style.visibility='hidden';
-			me._button_help_2.style[domTransition]='none';
-			me._button_help_2.style.opacity='1';
-			me._button_help_2.style.visibility=me._button_help_2.ggVisible?'inherit':'hidden';
+			flag=(me._popup.style.visibility=='hidden');
+			me._popup.style[domTransition]='none';
+			me._popup.style.visibility=flag?'inherit':'hidden';
+			me._popup.ggVisible=flag;
 		}
 		this._button_help.onmouseover=function () {
 			if (me.player.transitionsDisabled) {
@@ -5227,6 +4884,279 @@ function pano2vrSkin(player,base) {
 		}
 		this._help_container.appendChild(this._button_help);
 		this._mapholder.appendChild(this._help_container);
+		this._container_draussen_drinnen=document.createElement('div');
+		this._container_draussen_drinnen.ggId="Container_Draussen_Drinnen";
+		this._container_draussen_drinnen.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._container_draussen_drinnen.ggVisible=true;
+		this._container_draussen_drinnen.className='ggskin ggskin_container';
+		this._container_draussen_drinnen.ggType='container';
+		hs ='position:absolute;';
+		hs+='left: 0px;';
+		hs+='top:  1px;';
+		hs+='width: 1px;';
+		hs+='height: 1px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._container_draussen_drinnen.setAttribute('style',hs);
+		this._button_drinnen=document.createElement('div');
+		this._button_drinnen.ggId="Button_Drinnen";
+		this._button_drinnen.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._button_drinnen.ggVisible=true;
+		this._button_drinnen.className='ggskin ggskin_image';
+		this._button_drinnen.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 1159px;';
+		hs+='top:  390px;';
+		hs+='width: 150px;';
+		hs+='height: 45px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._button_drinnen.setAttribute('style',hs);
+		this._button_drinnen__img=document.createElement('img');
+		this._button_drinnen__img.className='ggskin ggskin_image';
+		this._button_drinnen__img.setAttribute('src',basePath + 'images/button_drinnen.png');
+		this._button_drinnen__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._button_drinnen__img.className='ggskin ggskin_image';
+		this._button_drinnen__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._button_drinnen__img);
+		this._button_drinnen.appendChild(this._button_drinnen__img);
+		this._button_drinnen.onclick=function () {
+			me._button_draussen.style[domTransition]='none';
+			me._button_draussen.style.visibility='inherit';
+			me._button_draussen.ggVisible=true;
+			me._reset.onclick();
+			me._help_container.style[domTransition]='none';
+			me._help_container.style.opacity='1';
+			me._help_container.style.visibility=me._help_container.ggVisible?'inherit':'hidden';
+		}
+		this._button_drinnen.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._button_drinnen.style[domTransition]='none';
+			} else {
+				me._button_drinnen.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._button_drinnen.ggParameter.sx=1.2;me._button_drinnen.ggParameter.sy=1.2;
+			me._button_drinnen.style[domTransform]=parameterToTransform(me._button_drinnen.ggParameter);
+		}
+		this._button_drinnen.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._button_drinnen.style[domTransition]='none';
+			} else {
+				me._button_drinnen.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._button_drinnen.ggParameter.sx=1;me._button_drinnen.ggParameter.sy=1;
+			me._button_drinnen.style[domTransform]=parameterToTransform(me._button_drinnen.ggParameter);
+		}
+		this._container_draussen_drinnen.appendChild(this._button_drinnen);
+		this._button_draussen=document.createElement('div');
+		this._button_draussen.ggId="Button_Draussen";
+		this._button_draussen.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._button_draussen.ggVisible=true;
+		this._button_draussen.className='ggskin ggskin_image';
+		this._button_draussen.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 1159px;';
+		hs+='top:  390px;';
+		hs+='width: 150px;';
+		hs+='height: 45px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._button_draussen.setAttribute('style',hs);
+		this._button_draussen__img=document.createElement('img');
+		this._button_draussen__img.className='ggskin ggskin_image';
+		this._button_draussen__img.setAttribute('src',basePath + 'images/button_draussen.png');
+		this._button_draussen__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._button_draussen__img.className='ggskin ggskin_image';
+		this._button_draussen__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._button_draussen__img);
+		this._button_draussen.appendChild(this._button_draussen__img);
+		this._button_draussen.onclick=function () {
+			me._stockwerk_wechsel_text.style[domTransition]='none';
+			me._stockwerk_wechsel_text.style.visibility='hidden';
+			me._stockwerk_wechsel_text.ggVisible=false;
+			me._map_draussen.style[domTransition]='none';
+			me._map_draussen.style.visibility='inherit';
+			me._map_draussen.ggVisible=true;
+			me._d_haupteingang.onclick();
+			me._button_draussen.style[domTransition]='none';
+			me._button_draussen.style.visibility='hidden';
+			me._button_draussen.ggVisible=false;
+			me._button_drinnen.style[domTransition]='none';
+			me._button_drinnen.style.visibility='inherit';
+			me._button_drinnen.ggVisible=true;
+			me._stockwerk_wechsel.style[domTransition]='none';
+			me._stockwerk_wechsel.style.visibility='hidden';
+			me._stockwerk_wechsel.ggVisible=false;
+			me._map_keller.style[domTransition]='none';
+			me._map_keller.style.opacity='0';
+			me._map_keller.style.visibility='hidden';
+			me._map_erdgeschoss.style[domTransition]='none';
+			me._map_erdgeschoss.style.opacity='0';
+			me._map_erdgeschoss.style.visibility='hidden';
+			me._map_1.style[domTransition]='none';
+			me._map_1.style.opacity='0';
+			me._map_1.style.visibility='hidden';
+			me._map_2.style[domTransition]='none';
+			me._map_2.style.opacity='0';
+			me._map_2.style.visibility='hidden';
+			me._map_3.style[domTransition]='none';
+			me._map_3.style.opacity='0';
+			me._map_3.style.visibility='hidden';
+			me._help_container.style[domTransition]='none';
+			me._help_container.style.opacity='0';
+			me._help_container.style.visibility='hidden';
+		}
+		this._button_draussen.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._button_draussen.style[domTransition]='none';
+			} else {
+				me._button_draussen.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._button_draussen.ggParameter.sx=1.2;me._button_draussen.ggParameter.sy=1.2;
+			me._button_draussen.style[domTransform]=parameterToTransform(me._button_draussen.ggParameter);
+		}
+		this._button_draussen.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._button_draussen.style[domTransition]='none';
+			} else {
+				me._button_draussen.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._button_draussen.ggParameter.sx=1;me._button_draussen.ggParameter.sy=1;
+			me._button_draussen.style[domTransform]=parameterToTransform(me._button_draussen.ggParameter);
+		}
+		this._container_draussen_drinnen.appendChild(this._button_draussen);
+		this._mapholder.appendChild(this._container_draussen_drinnen);
+		this._container_button_karte=document.createElement('div');
+		this._container_button_karte.ggId="Container_Button_Karte";
+		this._container_button_karte.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._container_button_karte.ggVisible=true;
+		this._container_button_karte.className='ggskin ggskin_container';
+		this._container_button_karte.ggType='container';
+		hs ='position:absolute;';
+		hs+='left: 34px;';
+		hs+='top:  393px;';
+		hs+='width: 1px;';
+		hs+='height: 1px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._container_button_karte.setAttribute('style',hs);
+		this._karte_vergroesern_button=document.createElement('div');
+		this._karte_vergroesern_button.ggId="Karte_Vergroesern_Button";
+		this._karte_vergroesern_button.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._karte_vergroesern_button.ggVisible=true;
+		this._karte_vergroesern_button.className='ggskin ggskin_image';
+		this._karte_vergroesern_button.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 4px;';
+		hs+='top:  -2px;';
+		hs+='width: 150px;';
+		hs+='height: 45px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: inherit;';
+		this._karte_vergroesern_button.setAttribute('style',hs);
+		this._karte_vergroesern_button__img=document.createElement('img');
+		this._karte_vergroesern_button__img.className='ggskin ggskin_image';
+		this._karte_vergroesern_button__img.setAttribute('src',basePath + 'images/karte_vergroesern_button.png');
+		this._karte_vergroesern_button__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._karte_vergroesern_button__img.className='ggskin ggskin_image';
+		this._karte_vergroesern_button__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._karte_vergroesern_button__img);
+		this._karte_vergroesern_button.appendChild(this._karte_vergroesern_button__img);
+		this._karte_vergroesern_button.onclick=function () {
+			if (me.player.transitionsDisabled) {
+				me._mapholder.style[domTransition]='none';
+			} else {
+				me._mapholder.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._mapholder.ggParameter.sx=0.7;me._mapholder.ggParameter.sy=0.7;
+			me._mapholder.style[domTransform]=parameterToTransform(me._mapholder.ggParameter);
+			flag=(me._karte_vergroesern_button.style.visibility=='hidden');
+			me._karte_vergroesern_button.style[domTransition]='none';
+			me._karte_vergroesern_button.style.visibility=flag?'inherit':'hidden';
+			me._karte_vergroesern_button.ggVisible=flag;
+			flag=(me._karte_verkleinern_button.style.visibility=='hidden');
+			me._karte_verkleinern_button.style[domTransition]='none';
+			me._karte_verkleinern_button.style.visibility=flag?'inherit':'hidden';
+			me._karte_verkleinern_button.ggVisible=flag;
+		}
+		this._karte_vergroesern_button.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._karte_vergroesern_button.style[domTransition]='none';
+			} else {
+				me._karte_vergroesern_button.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._karte_vergroesern_button.ggParameter.sx=1.1;me._karte_vergroesern_button.ggParameter.sy=1.1;
+			me._karte_vergroesern_button.style[domTransform]=parameterToTransform(me._karte_vergroesern_button.ggParameter);
+		}
+		this._karte_vergroesern_button.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._karte_vergroesern_button.style[domTransition]='none';
+			} else {
+				me._karte_vergroesern_button.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._karte_vergroesern_button.ggParameter.sx=1;me._karte_vergroesern_button.ggParameter.sy=1;
+			me._karte_vergroesern_button.style[domTransform]=parameterToTransform(me._karte_vergroesern_button.ggParameter);
+		}
+		this._container_button_karte.appendChild(this._karte_vergroesern_button);
+		this._karte_verkleinern_button=document.createElement('div');
+		this._karte_verkleinern_button.ggId="Karte_Verkleinern_Button";
+		this._karte_verkleinern_button.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		this._karte_verkleinern_button.ggVisible=false;
+		this._karte_verkleinern_button.className='ggskin ggskin_image';
+		this._karte_verkleinern_button.ggType='image';
+		hs ='position:absolute;';
+		hs+='left: 4px;';
+		hs+='top:  -2px;';
+		hs+='width: 150px;';
+		hs+='height: 45px;';
+		hs+=cssPrefix + 'transform-origin: 50% 50%;';
+		hs+='visibility: hidden;';
+		this._karte_verkleinern_button.setAttribute('style',hs);
+		this._karte_verkleinern_button__img=document.createElement('img');
+		this._karte_verkleinern_button__img.className='ggskin ggskin_image';
+		this._karte_verkleinern_button__img.setAttribute('src',basePath + 'images/karte_verkleinern_button.png');
+		this._karte_verkleinern_button__img.setAttribute('style','position: absolute;top: 0px;left: 0px;-webkit-user-drag:none;');
+		this._karte_verkleinern_button__img.className='ggskin ggskin_image';
+		this._karte_verkleinern_button__img['ondragstart']=function() { return false; };
+		me.player.checkLoaded.push(this._karte_verkleinern_button__img);
+		this._karte_verkleinern_button.appendChild(this._karte_verkleinern_button__img);
+		this._karte_verkleinern_button.onclick=function () {
+			if (me.player.transitionsDisabled) {
+				me._mapholder.style[domTransition]='none';
+			} else {
+				me._mapholder.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._mapholder.ggParameter.sx=0.5;me._mapholder.ggParameter.sy=0.5;
+			me._mapholder.style[domTransform]=parameterToTransform(me._mapholder.ggParameter);
+			flag=(me._karte_verkleinern_button.style.visibility=='hidden');
+			me._karte_verkleinern_button.style[domTransition]='none';
+			me._karte_verkleinern_button.style.visibility=flag?'inherit':'hidden';
+			me._karte_verkleinern_button.ggVisible=flag;
+			flag=(me._karte_vergroesern_button.style.visibility=='hidden');
+			me._karte_vergroesern_button.style[domTransition]='none';
+			me._karte_vergroesern_button.style.visibility=flag?'inherit':'hidden';
+			me._karte_vergroesern_button.ggVisible=flag;
+		}
+		this._karte_verkleinern_button.onmouseover=function () {
+			if (me.player.transitionsDisabled) {
+				me._karte_verkleinern_button.style[domTransition]='none';
+			} else {
+				me._karte_verkleinern_button.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._karte_verkleinern_button.ggParameter.sx=1.1;me._karte_verkleinern_button.ggParameter.sy=1.1;
+			me._karte_verkleinern_button.style[domTransform]=parameterToTransform(me._karte_verkleinern_button.ggParameter);
+		}
+		this._karte_verkleinern_button.onmouseout=function () {
+			if (me.player.transitionsDisabled) {
+				me._karte_verkleinern_button.style[domTransition]='none';
+			} else {
+				me._karte_verkleinern_button.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._karte_verkleinern_button.ggParameter.sx=1;me._karte_verkleinern_button.ggParameter.sy=1;
+			me._karte_verkleinern_button.style[domTransform]=parameterToTransform(me._karte_verkleinern_button.ggParameter);
+		}
+		this._container_button_karte.appendChild(this._karte_verkleinern_button);
+		this._mapholder.appendChild(this._container_button_karte);
 		this._computer.appendChild(this._mapholder);
 		this._openmap=document.createElement('div');
 		this._openmap.ggId="OpenMap";
@@ -5367,7 +5297,6 @@ function pano2vrSkin(player,base) {
 			me._do_ug.style.visibility='inherit';
 			me._do_ug.ggVisible=true;
 			me._aula.onclick();
-			me._button_help.onclick();
 		}
 		this.divSkin.appendChild(this._reset);
 		this._popup=document.createElement('div');
