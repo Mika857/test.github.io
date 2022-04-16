@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang_Handy.ggsk
-// Generated Sa. Apr 16 15:17:58 2022
+// Generated Sa. Apr 16 15:52:31 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -256,7 +256,7 @@ function pano2vrSkin(player,base) {
 		this._mapholder.className='ggskin ggskin_rectangle';
 		this._mapholder.ggType='rectangle';
 		hs ='position:absolute;';
-		hs+='left: -1px;';
+		hs+='left: 0px;';
 		hs+='top:  -1px;';
 		hs+='width: 807px;';
 		hs+='height: 747px;';
@@ -4175,10 +4175,10 @@ function pano2vrSkin(player,base) {
 		this._map_draussen_.className='ggskin ggskin_image';
 		this._map_draussen_.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 234px;';
+		hs+='left: 283px;';
 		hs+='top:  -2px;';
-		hs+='width: 489px;';
-		hs+='height: 410px;';
+		hs+='width: 630px;';
+		hs+='height: 587px;';
 		hs+=cssPrefix + 'transform-origin: 0% 0%;';
 		hs+='opacity: 0.8;';
 		hs+='visibility: inherit;';
@@ -4213,8 +4213,8 @@ function pano2vrSkin(player,base) {
 		this._d_turnhalle.className='ggskin ggskin_image';
 		this._d_turnhalle.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 321px;';
-		hs+='top:  222px;';
+		hs+='left: 323px;';
+		hs+='top:  325px;';
 		hs+='width: 32px;';
 		hs+='height: 32px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4231,10 +4231,10 @@ function pano2vrSkin(player,base) {
 		this._d_turnhalle.appendChild(this._d_turnhalle__img);
 		this._d_turnhalle.onclick=function () {
 			me._current_selection_d.style[domTransition]='none';
-			me._current_selection_d.ggParameter.rx=321;me._current_selection_d.ggParameter.ry=222;
+			me._current_selection_d.ggParameter.rx=323;me._current_selection_d.ggParameter.ry=325;
 			me._current_selection_d.style[domTransform]=parameterToTransform(me._current_selection_d.ggParameter);
 			me._orientierung_d.style[domTransition]='none';
-			me._orientierung_d.ggParameter.rx=321;me._orientierung_d.ggParameter.ry=222;
+			me._orientierung_d.ggParameter.rx=323;me._orientierung_d.ggParameter.ry=325;
 			me._orientierung_d.style[domTransform]=parameterToTransform(me._orientierung_d.ggParameter);
 			me.player.openNext("D_Turnhalle_out.xml","");
 		}
@@ -4264,8 +4264,8 @@ function pano2vrSkin(player,base) {
 		this._d_vorschule.className='ggskin ggskin_image';
 		this._d_vorschule.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 349px;';
-		hs+='top:  373px;';
+		hs+='left: 356px;';
+		hs+='top:  540px;';
 		hs+='width: 32px;';
 		hs+='height: 32px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4282,10 +4282,10 @@ function pano2vrSkin(player,base) {
 		this._d_vorschule.appendChild(this._d_vorschule__img);
 		this._d_vorschule.onclick=function () {
 			me._current_selection_d.style[domTransition]='none';
-			me._current_selection_d.ggParameter.rx=349;me._current_selection_d.ggParameter.ry=373;
+			me._current_selection_d.ggParameter.rx=356;me._current_selection_d.ggParameter.ry=540;
 			me._current_selection_d.style[domTransform]=parameterToTransform(me._current_selection_d.ggParameter);
 			me._orientierung_d.style[domTransition]='none';
-			me._orientierung_d.ggParameter.rx=349;me._orientierung_d.ggParameter.ry=373;
+			me._orientierung_d.ggParameter.rx=356;me._orientierung_d.ggParameter.ry=540;
 			me._orientierung_d.style[domTransform]=parameterToTransform(me._orientierung_d.ggParameter);
 			me.player.openNext("D_Vorschule_out.xml","");
 		}
@@ -4315,8 +4315,8 @@ function pano2vrSkin(player,base) {
 		this._d_haupteingang.className='ggskin ggskin_image';
 		this._d_haupteingang.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 428px;';
-		hs+='top:  355px;';
+		hs+='left: 463px;';
+		hs+='top:  521px;';
 		hs+='width: 32px;';
 		hs+='height: 32px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4333,10 +4333,10 @@ function pano2vrSkin(player,base) {
 		this._d_haupteingang.appendChild(this._d_haupteingang__img);
 		this._d_haupteingang.onclick=function () {
 			me._current_selection_d.style[domTransition]='none';
-			me._current_selection_d.ggParameter.rx=428;me._current_selection_d.ggParameter.ry=355;
+			me._current_selection_d.ggParameter.rx=463;me._current_selection_d.ggParameter.ry=521;
 			me._current_selection_d.style[domTransform]=parameterToTransform(me._current_selection_d.ggParameter);
 			me._orientierung_d.style[domTransition]='none';
-			me._orientierung_d.ggParameter.rx=428;me._orientierung_d.ggParameter.ry=355;
+			me._orientierung_d.ggParameter.rx=463;me._orientierung_d.ggParameter.ry=521;
 			me._orientierung_d.style[domTransform]=parameterToTransform(me._orientierung_d.ggParameter);
 			me.player.openNext("D_Haupteingang_out.xml","");
 		}
@@ -4366,8 +4366,8 @@ function pano2vrSkin(player,base) {
 		this._d_pausenhof.className='ggskin ggskin_image';
 		this._d_pausenhof.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 536px;';
-		hs+='top:  346px;';
+		hs+='left: 636px;';
+		hs+='top:  510px;';
 		hs+='width: 32px;';
 		hs+='height: 32px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4384,10 +4384,10 @@ function pano2vrSkin(player,base) {
 		this._d_pausenhof.appendChild(this._d_pausenhof__img);
 		this._d_pausenhof.onclick=function () {
 			me._current_selection_d.style[domTransition]='none';
-			me._current_selection_d.ggParameter.rx=536;me._current_selection_d.ggParameter.ry=346;
+			me._current_selection_d.ggParameter.rx=636;me._current_selection_d.ggParameter.ry=510;
 			me._current_selection_d.style[domTransform]=parameterToTransform(me._current_selection_d.ggParameter);
 			me._orientierung_d.style[domTransition]='none';
-			me._orientierung_d.ggParameter.rx=536;me._orientierung_d.ggParameter.ry=346;
+			me._orientierung_d.ggParameter.rx=636;me._orientierung_d.ggParameter.ry=510;
 			me._orientierung_d.style[domTransform]=parameterToTransform(me._orientierung_d.ggParameter);
 			me.player.openNext("D_Pausenhof_out.xml","");
 		}
@@ -4417,8 +4417,8 @@ function pano2vrSkin(player,base) {
 		this._d_roterplatz.className='ggskin ggskin_image';
 		this._d_roterplatz.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 620px;';
-		hs+='top:  267px;';
+		hs+='left: 749px;';
+		hs+='top:  389px;';
 		hs+='width: 32px;';
 		hs+='height: 32px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4435,10 +4435,10 @@ function pano2vrSkin(player,base) {
 		this._d_roterplatz.appendChild(this._d_roterplatz__img);
 		this._d_roterplatz.onclick=function () {
 			me._current_selection_d.style[domTransition]='none';
-			me._current_selection_d.ggParameter.rx=620;me._current_selection_d.ggParameter.ry=267;
+			me._current_selection_d.ggParameter.rx=749;me._current_selection_d.ggParameter.ry=389;
 			me._current_selection_d.style[domTransform]=parameterToTransform(me._current_selection_d.ggParameter);
 			me._orientierung_d.style[domTransition]='none';
-			me._orientierung_d.ggParameter.rx=620;me._orientierung_d.ggParameter.ry=267;
+			me._orientierung_d.ggParameter.rx=749;me._orientierung_d.ggParameter.ry=389;
 			me._orientierung_d.style[domTransform]=parameterToTransform(me._orientierung_d.ggParameter);
 			me.player.openNext("D_Roterplatz_out.xml","");
 		}
@@ -4468,8 +4468,8 @@ function pano2vrSkin(player,base) {
 		this._d_schulwald.className='ggskin ggskin_image';
 		this._d_schulwald.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 604px;';
-		hs+='top:  59px;';
+		hs+='left: 747px;';
+		hs+='top:  68px;';
 		hs+='width: 32px;';
 		hs+='height: 32px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4486,10 +4486,10 @@ function pano2vrSkin(player,base) {
 		this._d_schulwald.appendChild(this._d_schulwald__img);
 		this._d_schulwald.onclick=function () {
 			me._current_selection_d.style[domTransition]='none';
-			me._current_selection_d.ggParameter.rx=604;me._current_selection_d.ggParameter.ry=59;
+			me._current_selection_d.ggParameter.rx=747;me._current_selection_d.ggParameter.ry=68;
 			me._current_selection_d.style[domTransform]=parameterToTransform(me._current_selection_d.ggParameter);
 			me._orientierung_d.style[domTransition]='none';
-			me._orientierung_d.ggParameter.rx=604;me._orientierung_d.ggParameter.ry=59;
+			me._orientierung_d.ggParameter.rx=747;me._orientierung_d.ggParameter.ry=68;
 			me._orientierung_d.style[domTransform]=parameterToTransform(me._orientierung_d.ggParameter);
 			me.player.openNext("D_Schulwald_out.xml","");
 		}
@@ -4519,8 +4519,8 @@ function pano2vrSkin(player,base) {
 		this._d_vorschulwald.className='ggskin ggskin_image';
 		this._d_vorschulwald.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 554px;';
-		hs+='top:  65px;';
+		hs+='left: 654px;';
+		hs+='top:  88px;';
 		hs+='width: 32px;';
 		hs+='height: 32px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
@@ -4537,10 +4537,10 @@ function pano2vrSkin(player,base) {
 		this._d_vorschulwald.appendChild(this._d_vorschulwald__img);
 		this._d_vorschulwald.onclick=function () {
 			me._current_selection_d.style[domTransition]='none';
-			me._current_selection_d.ggParameter.rx=554;me._current_selection_d.ggParameter.ry=65;
+			me._current_selection_d.ggParameter.rx=654;me._current_selection_d.ggParameter.ry=88;
 			me._current_selection_d.style[domTransform]=parameterToTransform(me._current_selection_d.ggParameter);
 			me._orientierung_d.style[domTransition]='none';
-			me._orientierung_d.ggParameter.rx=554;me._orientierung_d.ggParameter.ry=65;
+			me._orientierung_d.ggParameter.rx=654;me._orientierung_d.ggParameter.ry=88;
 			me._orientierung_d.style[domTransform]=parameterToTransform(me._orientierung_d.ggParameter);
 			me.player.openNext("D_Vorschulwald_out.xml","");
 		}
