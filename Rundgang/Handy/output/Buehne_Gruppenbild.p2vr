@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/EG/Buehne_Gruppenbild/Buehne_Gruppenbild_cube.jpg</filename>
+      <filename>/run/media/mika/Volume/Git Website/Myykami.github.io/Rundgang/Raeume/EG/Buehne_Gruppenbild/Buehne_Gruppenbild_cube.jpg</filename>
       <type>strip</type>
       <hfov>360</hfov>
     </input>
@@ -49,7 +49,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/Buehne_Gruppenbild.html</filename>
+          <filename>Buehne_Gruppenbild.html</filename>
           <template>normal.ggt</template>
           <values>
             <value id="bgcolor">#ffffff</value>
@@ -62,14 +62,14 @@
             <value id="maps">false</value>
             <value id="parseanchor">false</value>
             <value id="showuserdata">false</value>
-            <value id="swf"/>
+            <value id="swf"></value>
             <value id="swffirst">false</value>
             <value id="swfgeneric">false</value>
             <value id="tablebgcolor">#dddddd</value>
             <value id="tablebordercolor">#777777</value>
             <value id="tabletextcolor">#000000</value>
             <value id="textcolor">#000000</value>
-            <value id="touchicon"/>
+            <value id="touchicon"></value>
           </values>
         </html>
         <facequality/>
@@ -98,8 +98,8 @@
           <backgroundcolor>#0000ff,64</backgroundcolor>
           <bordercolor>#0000ff</bordercolor>
         </hotspotstyle>
-        <filename>/run/media/mika/Volume/Schule/P-Seminar/Git Rundgang/Rundgang/output/Buehne_Gruppenbild_out.xml</filename>
-        <tilesize>4787</tilesize>
+        <filename>Buehne_Gruppenbild_out.xml</filename>
+        <tilesize>1877</tilesize>
         <quality>100</quality>
         <progressivejpeg>0</progressivejpeg>
         <cubefilename>images/$n_o.jpg</cubefilename>
@@ -116,7 +116,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>Rundgang.ggsk</skinfile>
+        <skinfile>/run/media/mika/Volume/Git Website/Myykami.github.io/Rundgang/Handy/Skins/Rundgang_Handy.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
