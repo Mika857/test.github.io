@@ -4,7 +4,7 @@
   <panorama>
     <input>
       <patch/>
-      <filename>../Raeume/UG/Gang U_21/haupttreppe keller_equi.jpg</filename>
+      <filename>/run/media/mika/Volume/Git Website/Myykami.github.io/Rundgang/Raeume/UG/Gang U_21/haupttreppe keller_equi_equi.jpg</filename>
       <type>auto</type>
       <hfov>360</hfov>
     </input>
@@ -101,9 +101,9 @@
           <values>
             <value id="bgcolor">#ffffff</value>
             <value id="fullscreen">true</value>
-            <value id="gyro">true</value>
+            <value id="gyro">false</value>
             <value id="gyrodisable">false</value>
-            <value id="gyronorth">true</value>
+            <value id="gyronorth">false</value>
             <value id="jsxml">false</value>
             <value id="manifest">false</value>
             <value id="maps">false</value>
@@ -163,7 +163,7 @@
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>
         <keyboardlocked>0</keyboardlocked>
-        <skinfile>D:\sync Drive\Schule\P-Seminar\Projekt\Rundgang so richtig rund!\Skins\Rundgang.ggsk</skinfile>
+        <skinfile>/run/media/mika/Volume/Git Website/Myykami.github.io/Rundgang/Handy/Skins/Rundgang_Handy.ggsk</skinfile>
         <skinSvgToPng>0</skinSvgToPng>
         <skinimagepath>images</skinimagepath>
         <preview>grayscale</preview>
