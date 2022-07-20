@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang.ggsk
-// Generated Sa. Apr 23 18:06:48 2022
+// Generated Mo. Jul 18 23:16:44 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -238,7 +238,7 @@ function pano2vrSkin(player,base) {
 		this._computer=document.createElement('div');
 		this._computer.ggId="Computer";
 		this._computer.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._computer.ggVisible=true;
+		this._computer.ggVisible=false;
 		this._computer.className='ggskin ggskin_container';
 		this._computer.ggType='container';
 		hs ='position:absolute;';
@@ -247,7 +247,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
+		hs+='visibility: hidden;';
 		this._computer.setAttribute('style',hs);
 		this._mapholder=document.createElement('div');
 		this._mapholder.ggId="Mapholder";
@@ -5308,8 +5308,8 @@ function pano2vrSkin(player,base) {
 		hs ='position:absolute;';
 		hs+='left: 0px;';
 		hs+='top:  0px;';
-		hs+='width: 10000px;';
-		hs+='height: 10000px;';
+		hs+='width: 4000px;';
+		hs+='height: 4000px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: inherit;';
 		hs+='background: #000000;';
@@ -5321,6 +5321,10 @@ function pano2vrSkin(player,base) {
 			me._popup.style[domTransition]='none';
 			me._popup.style.visibility=flag?'inherit':'hidden';
 			me._popup.ggVisible=flag;
+			flag=(me._computer.style.visibility=='hidden');
+			me._computer.style[domTransition]='none';
+			me._computer.style.visibility=flag?'inherit':'hidden';
+			me._computer.ggVisible=flag;
 		}
 		this._image_4=document.createElement('div');
 		this._image_4.ggId="Image 4";
@@ -5329,8 +5333,8 @@ function pano2vrSkin(player,base) {
 		this._image_4.className='ggskin ggskin_image';
 		this._image_4.ggType='image';
 		hs ='position:absolute;';
-		hs+='left: 650px;';
-		hs+='top:  290px;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
 		hs+='width: 620px;';
 		hs+='height: 320px;';
 		hs+=cssPrefix + 'transform-origin: 0% 50%;';

@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 4.5.3/10717
 // Filename: Rundgang_Handy.ggsk
-// Generated Sa. Apr 23 23:15:54 2022
+// Generated Mo. Jul 18 23:22:45 2022
 
 function pano2vrSkin(player,base) {
 	var me=this;
@@ -238,7 +238,7 @@ function pano2vrSkin(player,base) {
 		this._handy=document.createElement('div');
 		this._handy.ggId="Handy";
 		this._handy.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._handy.ggVisible=true;
+		this._handy.ggVisible=false;
 		this._handy.className='ggskin ggskin_container';
 		this._handy.ggType='container';
 		hs ='position:absolute;';
@@ -247,7 +247,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 1px;';
 		hs+='height: 1px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
-		hs+='visibility: inherit;';
+		hs+='visibility: hidden;';
 		this._handy.setAttribute('style',hs);
 		this._mapholder=document.createElement('div');
 		this._mapholder.ggId="Mapholder";
@@ -5275,8 +5275,8 @@ function pano2vrSkin(player,base) {
 		hs ='position:absolute;';
 		hs+='left: 0px;';
 		hs+='top:  0px;';
-		hs+='width: 10000px;';
-		hs+='height: 10000px;';
+		hs+='width: 4000px;';
+		hs+='height: 4000px;';
 		hs+=cssPrefix + 'transform-origin: 50% 50%;';
 		hs+='visibility: inherit;';
 		hs+='background: #000000;';
@@ -5288,20 +5288,23 @@ function pano2vrSkin(player,base) {
 			me._popup.style[domTransition]='none';
 			me._popup.style.visibility=flag?'inherit':'hidden';
 			me._popup.ggVisible=flag;
+			flag=(me._handy.style.visibility=='hidden');
+			me._handy.style[domTransition]='none';
+			me._handy.style.visibility=flag?'inherit':'hidden';
+			me._handy.ggVisible=flag;
 		}
 		this._image_4=document.createElement('div');
 		this._image_4.ggId="Image 4";
-		this._image_4.ggParameter={ rx:0,ry:0,a:0,sx:0.7,sy:0.7 };
+		this._image_4.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		this._image_4.ggVisible=true;
 		this._image_4.className='ggskin ggskin_image';
 		this._image_4.ggType='image';
 		hs ='position:absolute;';
 		hs+='left: 0px;';
-		hs+='top:  340px;';
-		hs+='width: 620px;';
-		hs+='height: 320px;';
+		hs+='top:  0px;';
+		hs+='width: 430px;';
+		hs+='height: 222px;';
 		hs+=cssPrefix + 'transform-origin: 0% 50%;';
-		hs+=cssPrefix + 'transform: ' + parameterToTransform(this._image_4.ggParameter) + ';';
 		hs+='visibility: inherit;';
 		this._image_4.setAttribute('style',hs);
 		this._image_4__img=document.createElement('img');

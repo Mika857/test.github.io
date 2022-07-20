@@ -275,7 +275,7 @@
         <masssimulation>1</masssimulation>
         <locked>0</locked>
         <invertcontrol>1</invertcontrol>
-        <dblclickfullscreen>0</dblclickfullscreen>
+        <dblclickfullscreen>1</dblclickfullscreen>
         <lockedwheel>0</lockedwheel>
         <invertwheel>0</invertwheel>
         <speedwheel>1</speedwheel>

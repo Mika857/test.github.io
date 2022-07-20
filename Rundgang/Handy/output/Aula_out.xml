@@ -25,5 +25,5 @@
   <input tile0url="images/aula mit eggie_o_0.jpg" prev5url="images/aula mit eggie_o_preview_5.jpg" prev4url="images/aula mit eggie_o_preview_4.jpg" prev3url="images/aula mit eggie_o_preview_3.jpg" prev2url="images/aula mit eggie_o_preview_2.jpg" prev1url="images/aula mit eggie_o_preview_1.jpg" prev0url="images/aula mit eggie_o_preview_0.jpg" tile5url="images/aula mit eggie_o_5.jpg" tilesize="1542" tile4url="images/aula mit eggie_o_4.jpg" tile3url="images/aula mit eggie_o_3.jpg" tilescale="1.006485" tile2url="images/aula mit eggie_o_2.jpg" tile1url="images/aula mit eggie_o_1.jpg">
     <preview color="0x808080"/>
   </input>
-  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="1" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
 </panorama>
